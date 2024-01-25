@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  24 JAN 2024 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  25 JAN 2024 22:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1336,22 +1336,26 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<fig.png, id=7, 391.7034pt x 314.3745pt>
-File: fig.png Graphic file (type png)
-<use fig.png>
-Package pdftex.def Info: fig.png  used on input line 106.
+<figs/fig.png, id=7, 391.7034pt x 314.3745pt>
+File: figs/fig.png Graphic file (type png)
+<use figs/fig.png>
+Package pdftex.def Info: figs/fig.png  used on input line 106.
 (pdftex.def)             Requested size: 252.0pt x 202.25432pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./fig.png>] (./Assignment2.aux)
+ <./figs/fig.png>]
+(./Assignment2.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30389 strings out of 476025
- 600776 string characters out of 5790018
+ 30390 strings out of 476025
+ 600811 string characters out of 5790018
  1878388 words of memory out of 5000000
  50160 multiletter control sequences out of 15000+600000
  583480 words of font info for 177 fonts, out of 8000000 for 9000
