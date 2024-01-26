@@ -67,9 +67,9 @@ The sum of the first four terms of an A.P. is 56. The sum of the last four terms
 \hline
 Symbol & Value & Description\\
 \hline
-$S_1$ & $56$ & Sum of the first four terms of AP\\
+$y\brak{3}$ & $56$ & Sum of the first four terms of AP\\
 \hline
-$S_2$ & $112$& Sum of the last four terms of AP\\
+$y\brak{n}-y\brak{n-4}$ & $112$& Sum of the last four terms of AP\\
 \hline
 $x(0)$ & $11$ & First term of AP \\
 \hline
@@ -87,14 +87,14 @@ $x(n)$ & $31$ & Last term of AP\\
 \centering{Input Parameters}
 
 \begin{align}
-S_1&=\frac{4}{2}\brak{2x\brak{0}+3d}\\
+y(3)&=\frac{4}{2}\brak{2x\brak{0}+3d}\\
 \frac{4}{2}\brak{2x\brak{0}+3d}&=56\\
 2x\brak{0}+3d&=28\\
 d&=2
 \end{align}
 
 \begin{align}
-S_2&=1\frac{4}{2}\brak{2x\brak{n}+3\brak{-d}}\\
+y\brak{n}-y\brak{n-4}&=\frac{4}{2}\brak{2x\brak{n}+3\brak{-d}}\\
 \frac{4}{2}\brak{2x\brak{n}+3\brak{-d}}&=112\\
 2x\brak{n}-3d&=56\\
 x\brak{n}&=31\\
@@ -117,7 +117,7 @@ n&=10
 \begin{align}
 X\brak{z}&= \sum_{n=-\infty}^{\infty} x\brak{n}Z^{-n} \\
 &=\sum_{n=0}^{\infty} x\brak{0}Z^{-n} + \sum_{n=-0}^{\infty}2nZ^{-n}\\
-&=\frac{x\brak{0}}{1-Z^{-1}}+2\frac{Z^{-n}}{\brak{1-Z^{-1}}^{2}}, |Z|>1
+&=\frac{x\brak{0}}{1-Z^{-1}}\quad+\quad 2\frac{Z^{-n}}{\brak{1-Z^{-1}}^{2}}\hspace{1mm}.\quad\brak{|Z|>1}
 \end{align}
 
 
